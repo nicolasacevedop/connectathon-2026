@@ -38,7 +38,7 @@
     "encounter" : {
       "reference" : "Encounter/5014"
     },
-    "effectiveDateTime" : "2024-10-25T14:18:00-04:00",
+    "effectiveDateTime" : "2024-12-25T13:13:35-00:00",
     "performer" : [
       {
         "reference" : "urn:uuid:6c8707ee-0b24-4ae3-8bbe-7eaa2f4db1f0"
