@@ -1,0 +1,224 @@
+{
+  "resourceType" : "Bundle",
+  "meta" : {
+    "profile" : [
+      "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/BundleCategorizacion"
+    ]
+  },
+  "type" : "transaction",
+  "entry" : [
+    {
+      "fullUrl" : "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1",
+      "resource" : {
+        "resourceType": "Encounter",
+        "id": "bfc99432-0500-444f-9340-4a12ae51e1d1",
+        "meta": {
+          "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/EncounterUrg"
+          ]
+        },
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_bfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter bfc99432-0500-444f-9340-4a12ae51e1d1</b></p><a name=\"bfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><a name=\"hcbfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-EncounterUrg.html\">Encuentro Urgencia</a></p></div><p><b>Acompañante</b>: false</p><p><b>identifier</b>: 126402-0025</p><p><b>status</b>: Arrived</p><h3>StatusHistories</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Status</b></td><td><b>Period</b></td></tr><tr><td style=\"display: none\">*</td><td>Arrived</td><td>2024-12-25 13:18:00-0400 --&gt; (ongoing)</td></tr></table><p><b>class</b>: <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-EMER\">ActCode: EMER</a> (emergency)</p><p><b>priority</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/categorizacion-no-realizada 99}\">Sin Categorizar</span></p><p><b>subject</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-4239\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType ADM}\">admitter</span></p><p><b>period</b>: 2024-12-25 13:18:00-0400 --&gt; (ongoing)</p><p><b>individual</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn:uuid:c2797e66-9f85-4c86-a306-27cbfd2e3af3\">Practitioner Mario Donoso </a></p></blockquote><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/participant-type emergency}\">Emergency</span></p><p><b>individual</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-bb7f34f7-8f4e-42c8-aa84-1f64bf584a05\">RelatedPerson Jose Luis Perez </a></p></blockquote><p><b>period</b>: 2024-12-25 13:18:00-0400 --&gt; (ongoing)</p><blockquote><p><b>hospitalization</b></p><p><b>Medio de Llegada</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/MedioDeLlegada 5}\">Vehículo particular</span></p><p><b>Consulta por Accidente</b>: false</p><p><b>admitSource</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/Procedencia 9}\">Domicilio</span></p></blockquote><p><b>serviceProvider</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-4474\">Organization Hospital Clínico Metropolitano La Florida Dra. Eloísa Díaz Insunza</a></p></div>"
+        },
+        "extension": [
+          {
+            "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/Acompanante",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "value": "126402-0025"
+          }
+        ],
+        "status": "triaged",
+        "statusHistory": [
+          {
+            "status": "arrived",
+            "period": {
+              "start": "2024-12-25T13:13:18-00:00"
+            }
+          },
+          {
+            "status" : "triaged",
+            "period" : {
+              "start": "2024-12-25T13:13:35-00:00"
+            }
+          }
+        ],
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "EMER"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/categorizacion-no-realizada",
+              "code": "C3",
+              "display": "Atención Prioritaria"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5015"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ADM",
+                    "display" :"admitter"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2024-12-25T13:13:18-00:00"
+            },
+            "individual": {
+              "reference": "Practitioner/5017"
+            }
+          },
+          {
+            "type" : [
+              {
+                "coding" : [
+                  {
+                    "system" : "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TipoParticipanteUrgencia",
+                    "code" : "triage"
+                  }
+                ]
+              }
+            ],
+            "period" : {
+              "start" : "2024-12-25T13:13:35-00:00"
+            },
+            "individual" : {
+              "reference" : "urn:uuid:6c8707ee-0b24-4ae3-8bbe-7eaa2f4db1f0"
+            }
+          }
+          
+        ],
+        "period": {
+          "start": "2024-12-25T13:13:18-00:00"
+        },
+        "hospitalization": {
+          "extension": [
+            {
+              "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/MedioDeLlegada",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/MedioDeLlegada",
+                    "code": "5",
+                    "display": "Vehículo particular"
+                  }
+                ]
+              }
+            },
+            {
+              "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ConsultaPorAccidente",
+              "valueBoolean": false
+            }
+          ],
+          "admitSource": {
+            "coding": [
+              {
+                "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/Procedencia",
+                "code": "9",
+                "display": "Domicilio"
+              }
+            ]
+          }
+        },
+        "serviceProvider": {
+          "reference": "Organization/5016"
+        }
+      },
+      "request" : {
+        "method" : "PUT",
+        "url" : "Encounter/5014"
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:6c8707ee-0b24-4ae3-8bbe-7eaa2f4db1f0",
+      "resource" : {
+        "resourceType": "Practitioner",
+        "id": "6c8707ee-0b24-4ae3-8bbe-7eaa2f4db1f0",
+        "meta": {
+            "profile": [
+                "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/PrestadorProfesional"
+            ]
+        },
+        "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_6c8707ee-0b24-4ae3-8bbe-7eaa2f4db1f0\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 6c8707ee-0b24-4ae3-8bbe-7eaa2f4db1f0</b></p><a name=\"6c8707ee-0b24-4ae3-8bbe-7eaa2f4db1f0\"> </a><a name=\"hc6c8707ee-0b24-4ae3-8bbe-7eaa2f4db1f0\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PrestadorProfesional.html\">Prestador Profesional de Urgencia</a></p></div><p><b>identifier</b>: RUN/12345678-9\u00a0(use:\u00a0official,\u00a0)</p><p><b>name</b>: Juan Carlos Perez Gonzalez(Official)</p><p><b>birthDate</b>: 1980-01-01</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>cert</td><td><span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TituloProfesional 20}\">Técnico en Salud</span></td></tr></table></div>"
+        },
+        "identifier": [
+            {
+                "use": "official",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+                            "code": "01",
+                            "display": "RUN"
+                            
+                        }
+                    ]
+                },
+                "system": "http://www.registrocivil.cl",
+                "value": "15500246-8"
+            }
+        ],
+        "name": [
+            {
+                "use": "official",
+                "text": "Ahsoka Tano Bonteri",
+                "family": "Tano",
+                "_family": {
+                    "extension": [
+                        {
+                            "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+                            "valueString": "Bonteri"
+                        }
+                    ]
+                },
+                "given": [
+                    "Ahsoka"
+                ]
+            }
+        ],
+        "birthDate": "1987-12-25",
+        "qualification": [
+            {
+                "identifier": [
+                    {
+                        "value": "cert"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TituloProfesional",
+                            "code": "20",
+                            "display": "TÉCNICOS EN SALUD"
+                        }
+                    ],
+                    "text": "Técnico en Salud"
+                }
+            }
+        ]
+    },
+      "request" : {
+        "method" : "POST",
+        "url" : "Practitioner",
+        "ifNoneExist" : "identifier=15500246-8"
+      }
+    }
+  ]
+}

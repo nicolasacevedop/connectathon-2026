@@ -1,0 +1,137 @@
+{
+  "resourceType": "Bundle",
+  "id": "b4e7ee84-635d-4580-a72a-dbff99eaab73",
+  "type": "transaction-response",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.cegconsultores.cl/fhir"
+    }
+  ],
+  "entry": [
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Patient/5015/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-13T18:18:42.311+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Patient/5015/_history/1&quot;. No existing resources matched URL &quot;identifier=13379900-1&quot;. Took 2ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_NO_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: no existing resource matched the conditional URL."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Patient/5015/_history/1\". No existing resources matched URL \"identifier=13379900-1\". Took 2ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Encounter/5014/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-13T18:18:42.311+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Encounter/5014/_history/1&quot;. Took 2ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Encounter/5014/_history/1\". Took 2ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Organization/5016/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-13T18:18:42.311+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Organization/5016/_history/1&quot;. No existing resources matched URL &quot;identifier=1141052&quot;. Took 2ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_NO_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: no existing resource matched the conditional URL."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Organization/5016/_history/1\". No existing resources matched URL \"identifier=1141052\". Took 2ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Practitioner/5017/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-13T18:18:42.311+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Practitioner/5017/_history/1&quot;. No existing resources matched URL &quot;identifier=111111112-1&quot;. Took 1ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_NO_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: no existing resource matched the conditional URL."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Practitioner/5017/_history/1\". No existing resources matched URL \"identifier=111111112-1\". Took 1ms."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

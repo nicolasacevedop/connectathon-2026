@@ -1,0 +1,106 @@
+{
+  "resourceType": "Encounter",
+  "id": "bfc99432-0500-444f-9340-4a12ae51e1d1",
+  "meta": {
+    "profile": [
+      "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/EncounterUrg"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_bfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter bfc99432-0500-444f-9340-4a12ae51e1d1</b></p><a name=\"bfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><a name=\"hcbfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-EncounterUrg.html\">Encuentro Urgencia</a></p></div><p><b>Acompañante</b>: false</p><p><b>identifier</b>: 126402-0025</p><p><b>status</b>: Arrived</p><h3>StatusHistories</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Status</b></td><td><b>Period</b></td></tr><tr><td style=\"display: none\">*</td><td>Arrived</td><td>2024-10-25 13:18:00-0400 --&gt; (ongoing)</td></tr></table><p><b>class</b>: <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-EMER\">ActCode: EMER</a> (emergency)</p><p><b>priority</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/categorizacion-no-realizada 99}\">Sin Categorizar</span></p><p><b>subject</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-4239\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType ADM}\">admitter</span></p><p><b>period</b>: 2024-10-25 13:18:00-0400 --&gt; (ongoing)</p><p><b>individual</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-4408\">Practitioner Mario Donoso </a></p></blockquote><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/participant-type emergency}\">Emergency</span></p><p><b>individual</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-bb7f34f7-8f4e-42c8-aa84-1f64bf584a05\">RelatedPerson Jose Luis Perez </a></p></blockquote><p><b>period</b>: 2024-10-25 13:18:00-0400 --&gt; (ongoing)</p><blockquote><p><b>hospitalization</b></p><p><b>Medio de Llegada</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/MedioDeLlegada 5}\">Vehículo particular</span></p><p><b>Consulta por Accidente</b>: false</p><p><b>admitSource</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/Procedencia 9}\">Domicilio</span></p></blockquote><p><b>serviceProvider</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-4474\">Organization Hospital Clínico Metropolitano La Florida Dra. Eloísa Díaz Insunza</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/Acompanante",
+      "valueBoolean": false
+    }
+  ],
+  "identifier": [
+    {
+      "value": "126402-0025"
+    }
+  ],
+  "status": "arrived",
+  "statusHistory": [
+    {
+      "status": "arrived",
+      "period": {
+        "start": "2024-12-25T13:13:18-00:00"
+      }
+    }
+  ],
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "EMER"
+  },
+  "priority": {
+    "coding": [
+      {
+        "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/categorizacion-no-realizada",
+        "code": "99",
+        "display": "Sin Categorizar"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c"
+  },
+  "participant": [
+    {
+      "type": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+              "code": "ADM",
+              "display" :"admitter"
+            }
+          ]
+        }
+      ],
+      "period": {
+        "start": "2024-12-25T13:13:18-00:00"
+      },
+      "individual": {
+        "reference": "Practitioner/4408"
+      }
+    }
+    
+  ],
+  "period": {
+    "start": "2024-12-25T13:13:18-00:00"
+  },
+  "hospitalization": {
+    "extension": [
+      {
+        "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/MedioDeLlegada",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/MedioDeLlegada",
+              "code": "5",
+              "display": "Vehículo particular"
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ConsultaPorAccidente",
+        "valueBoolean": false
+      }
+    ],
+    "admitSource": {
+      "coding": [
+        {
+          "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/Procedencia",
+          "code": "9",
+          "display": "Domicilio"
+        }
+      ]
+    }
+  },
+  "serviceProvider": {
+    "reference": "Organization/4474"
+  }
+}
