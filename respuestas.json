@@ -1,0 +1,837 @@
+{
+  "resourceType": "OperationOutcome",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[0].resource.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[0].resource.participant[0].individual]</td><td>URN reference is not locally contained within the bundle urn:uuid:c2797e66-9f85-4c86-a306-27cbfd2e3af3</td></tr><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[Bundle.entry[0].resource.participant[1].type[0], Line[1] Col[1663]]</td><td>Code validation occurred using a ValueSet expansion that was pre-calculated at 2026-01-12T02:53:37.668+00:00</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[0].resource.serviceProvider]</td><td>URN reference is not locally contained within the bundle urn:uuid:5bae4247-7b65-46d4-8ef7-5abadbbf9906</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.participant[0].individual]</td><td>URN reference is not locally contained within the bundle urn:uuid:c2797e66-9f85-4c86-a306-27cbfd2e3af3</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.participant[1].type[0], Line[1] Col[1663]]</td><td>None of the codings provided are in the value set 'Participant type' (http://hl7.org/fhir/ValueSet/encounter-participant-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TipoParticipanteUrgencia#triage)</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.serviceProvider]</td><td>URN reference is not locally contained within the bundle urn:uuid:5bae4247-7b65-46d4-8ef7-5abadbbf9906</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[2].resource.code, Line[1] Col[9985]]</td><td>Concept Display &quot;Heart rate&quot; does not match expected &quot;Frecuencia card�aca&quot; for 'http://loinc.org#8867-4'</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[2].resource.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[2].resource/*Observation/7cd26880-4b33-49c0-b581-0578bf0568a7*/.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[3].resource.code, Line[1] Col[13260]]</td><td>Concept Display &quot;Systolic blood pressure&quot; does not match expected &quot;Presi�n arterial sist�lica&quot; for 'http://loinc.org#8480-6'</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[3].resource.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[3].resource/*Observation/1577076d-236d-470f-8e78-85c306c42d18*/.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[4].resource.code, Line[1] Col[16542]]</td><td>Concept Display &quot;Diastolic blood pressure&quot; does not match expected &quot;Presi�n arterial diast�lica&quot; for 'http://loinc.org#8462-4'</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[4].resource.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[4].resource/*Observation/194bbe87-6849-49a3-a53a-47fbde9c0d38*/.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[5].resource.code, Line[1] Col[19799]]</td><td>Concept Display &quot;Body temperature&quot; does not match expected &quot;Temperatura corporal&quot; for 'http://loinc.org#8310-5'</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[5].resource.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[5].resource/*Observation/8a702953-803a-4d7e-a1f3-018195785d08*/.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[6].resource.code, Line[1] Col[23052]]</td><td>Concept Display &quot;Respiratory rate&quot; does not match expected &quot;Frecuencia respiratoria&quot; for 'http://loinc.org#9279-1'</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[6].resource.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[6].resource/*Observation/abfe543e-d281-4f41-aa22-fb43c1358023*/.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[7].resource.code, Line[1] Col[26326]]</td><td>Concept Display &quot;Oxygen saturation in Arterial blood&quot; does not match expected &quot;Saturaci�n de ox�geno&quot; for 'http://loinc.org#2708-6'</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[7].resource.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[7].resource/*Observation/aae021d9-d954-4313-b6a3-1e42e9124495*/.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[8].resource.code, Line[1] Col[29629]]</td><td>Concept Display &quot;Pain severity - 0-10 verbal numeric rating [Score] - Reported&quot; does not match expected &quot;Escala de dolor 0-10&quot; for 'http://loinc.org#72514-3'</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[8].resource.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[8].resource.value.ofType(Quantity), Line[1] Col[32523]]</td><td>The Coding provided (http://unitsofmeasure.org#1) was not found in the value set 'Vital Signs Units' (http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1), and a code should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable). (error message = Unknown code 'http://unitsofmeasure.org#1' for in-memory expansion of ValueSet 'http://hl7.org/fhir/ValueSet/ucum-vitals-common')</td></tr><tr><td style=\"font-weight: bold;\">WARNING</td><td>[Bundle.entry[8].resource/*Observation/76c0dcaa-c9a2-4596-84f8-c3f235c847da*/.subject]</td><td>URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c</td></tr></table></div>"
+  },
+  "issue": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[0].resource.subject"
+      ],
+      "expression": [
+        "Bundle.entry[0].resource.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:c2797e66-9f85-4c86-a306-27cbfd2e3af3",
+      "location": [
+        "Bundle.entry[0].resource.participant[0].individual"
+      ],
+      "expression": [
+        "Bundle.entry[0].resource.participant[0].individual"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 1663
+        }
+      ],
+      "severity": "information",
+      "code": "processing",
+      "diagnostics": "Code validation occurred using a ValueSet expansion that was pre-calculated at 2026-01-12T02:53:37.668+00:00",
+      "location": [
+        "Bundle.entry[0].resource.participant[1].type[0]",
+        "Line[1] Col[1663]"
+      ],
+      "expression": [
+        "Bundle.entry[0].resource.participant[1].type[0]"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:5bae4247-7b65-46d4-8ef7-5abadbbf9906",
+      "location": [
+        "Bundle.entry[0].resource.serviceProvider"
+      ],
+      "expression": [
+        "Bundle.entry[0].resource.serviceProvider"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.subject"
+      ],
+      "expression": [
+        "Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:c2797e66-9f85-4c86-a306-27cbfd2e3af3",
+      "location": [
+        "Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.participant[0].individual"
+      ],
+      "expression": [
+        "Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.participant[0].individual"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 1663
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_TX_NoValid_2_CC"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_TX_NoValid_2_CC"
+          }
+        ]
+      },
+      "diagnostics": "None of the codings provided are in the value set 'Participant type' (http://hl7.org/fhir/ValueSet/encounter-participant-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TipoParticipanteUrgencia#triage)",
+      "location": [
+        "Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.participant[1].type[0]",
+        "Line[1] Col[1663]"
+      ],
+      "expression": [
+        "Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.participant[1].type[0]"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:5bae4247-7b65-46d4-8ef7-5abadbbf9906",
+      "location": [
+        "Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.serviceProvider"
+      ],
+      "expression": [
+        "Bundle.entry[0].resource/*Encounter/bfc99432-0500-444f-9340-4a12ae51e1d1*/.serviceProvider"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 9985
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_PassThrough_TX_Message"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_PassThrough_TX_Message"
+          }
+        ]
+      },
+      "diagnostics": "Concept Display \"Heart rate\" does not match expected \"Frecuencia card�aca\" for 'http://loinc.org#8867-4'",
+      "location": [
+        "Bundle.entry[2].resource.code",
+        "Line[1] Col[9985]"
+      ],
+      "expression": [
+        "Bundle.entry[2].resource.code"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[2].resource.subject"
+      ],
+      "expression": [
+        "Bundle.entry[2].resource.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[2].resource/*Observation/7cd26880-4b33-49c0-b581-0578bf0568a7*/.subject"
+      ],
+      "expression": [
+        "Bundle.entry[2].resource/*Observation/7cd26880-4b33-49c0-b581-0578bf0568a7*/.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 13260
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_PassThrough_TX_Message"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_PassThrough_TX_Message"
+          }
+        ]
+      },
+      "diagnostics": "Concept Display \"Systolic blood pressure\" does not match expected \"Presi�n arterial sist�lica\" for 'http://loinc.org#8480-6'",
+      "location": [
+        "Bundle.entry[3].resource.code",
+        "Line[1] Col[13260]"
+      ],
+      "expression": [
+        "Bundle.entry[3].resource.code"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[3].resource.subject"
+      ],
+      "expression": [
+        "Bundle.entry[3].resource.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[3].resource/*Observation/1577076d-236d-470f-8e78-85c306c42d18*/.subject"
+      ],
+      "expression": [
+        "Bundle.entry[3].resource/*Observation/1577076d-236d-470f-8e78-85c306c42d18*/.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 16542
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_PassThrough_TX_Message"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_PassThrough_TX_Message"
+          }
+        ]
+      },
+      "diagnostics": "Concept Display \"Diastolic blood pressure\" does not match expected \"Presi�n arterial diast�lica\" for 'http://loinc.org#8462-4'",
+      "location": [
+        "Bundle.entry[4].resource.code",
+        "Line[1] Col[16542]"
+      ],
+      "expression": [
+        "Bundle.entry[4].resource.code"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[4].resource.subject"
+      ],
+      "expression": [
+        "Bundle.entry[4].resource.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[4].resource/*Observation/194bbe87-6849-49a3-a53a-47fbde9c0d38*/.subject"
+      ],
+      "expression": [
+        "Bundle.entry[4].resource/*Observation/194bbe87-6849-49a3-a53a-47fbde9c0d38*/.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 19799
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_PassThrough_TX_Message"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_PassThrough_TX_Message"
+          }
+        ]
+      },
+      "diagnostics": "Concept Display \"Body temperature\" does not match expected \"Temperatura corporal\" for 'http://loinc.org#8310-5'",
+      "location": [
+        "Bundle.entry[5].resource.code",
+        "Line[1] Col[19799]"
+      ],
+      "expression": [
+        "Bundle.entry[5].resource.code"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[5].resource.subject"
+      ],
+      "expression": [
+        "Bundle.entry[5].resource.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[5].resource/*Observation/8a702953-803a-4d7e-a1f3-018195785d08*/.subject"
+      ],
+      "expression": [
+        "Bundle.entry[5].resource/*Observation/8a702953-803a-4d7e-a1f3-018195785d08*/.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 23052
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_PassThrough_TX_Message"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_PassThrough_TX_Message"
+          }
+        ]
+      },
+      "diagnostics": "Concept Display \"Respiratory rate\" does not match expected \"Frecuencia respiratoria\" for 'http://loinc.org#9279-1'",
+      "location": [
+        "Bundle.entry[6].resource.code",
+        "Line[1] Col[23052]"
+      ],
+      "expression": [
+        "Bundle.entry[6].resource.code"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[6].resource.subject"
+      ],
+      "expression": [
+        "Bundle.entry[6].resource.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[6].resource/*Observation/abfe543e-d281-4f41-aa22-fb43c1358023*/.subject"
+      ],
+      "expression": [
+        "Bundle.entry[6].resource/*Observation/abfe543e-d281-4f41-aa22-fb43c1358023*/.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 26326
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_PassThrough_TX_Message"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_PassThrough_TX_Message"
+          }
+        ]
+      },
+      "diagnostics": "Concept Display \"Oxygen saturation in Arterial blood\" does not match expected \"Saturaci�n de ox�geno\" for 'http://loinc.org#2708-6'",
+      "location": [
+        "Bundle.entry[7].resource.code",
+        "Line[1] Col[26326]"
+      ],
+      "expression": [
+        "Bundle.entry[7].resource.code"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[7].resource.subject"
+      ],
+      "expression": [
+        "Bundle.entry[7].resource.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[7].resource/*Observation/aae021d9-d954-4313-b6a3-1e42e9124495*/.subject"
+      ],
+      "expression": [
+        "Bundle.entry[7].resource/*Observation/aae021d9-d954-4313-b6a3-1e42e9124495*/.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 29629
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_PassThrough_TX_Message"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_PassThrough_TX_Message"
+          }
+        ]
+      },
+      "diagnostics": "Concept Display \"Pain severity - 0-10 verbal numeric rating [Score] - Reported\" does not match expected \"Escala de dolor 0-10\" for 'http://loinc.org#72514-3'",
+      "location": [
+        "Bundle.entry[8].resource.code",
+        "Line[1] Col[29629]"
+      ],
+      "expression": [
+        "Bundle.entry[8].resource.code"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[8].resource.subject"
+      ],
+      "expression": [
+        "Bundle.entry[8].resource.subject"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-line",
+          "valueInteger": 1
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-col",
+          "valueInteger": 32523
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Terminology_TX_NoValid_13"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Terminology_TX_NoValid_13"
+          }
+        ]
+      },
+      "diagnostics": "The Coding provided (http://unitsofmeasure.org#1) was not found in the value set 'Vital Signs Units' (http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1), and a code should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable).  (error message = Unknown code 'http://unitsofmeasure.org#1' for in-memory expansion of ValueSet 'http://hl7.org/fhir/ValueSet/ucum-vitals-common')",
+      "location": [
+        "Bundle.entry[8].resource.value.ofType(Quantity)",
+        "Line[1] Col[32523]"
+      ],
+      "expression": [
+        "Bundle.entry[8].resource.value.ofType(Quantity)"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+          "valueString": "Bundle_BUNDLE_Not_Local"
+        }
+      ],
+      "severity": "warning",
+      "code": "processing",
+      "details": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/java-core-messageId",
+            "code": "Bundle_BUNDLE_Not_Local"
+          }
+        ]
+      },
+      "diagnostics": "URN reference is not locally contained within the bundle urn:uuid:de3629e7-45aa-4bfe-aaba-e9872062684c",
+      "location": [
+        "Bundle.entry[8].resource/*Observation/76c0dcaa-c9a2-4596-84f8-c3f235c847da*/.subject"
+      ],
+      "expression": [
+        "Bundle.entry[8].resource/*Observation/76c0dcaa-c9a2-4596-84f8-c3f235c847da*/.subject"
+      ]
+    }
+  ]
+}

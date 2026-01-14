@@ -1,0 +1,810 @@
+{
+    "resourceType": "Bundle",
+    "id": "EjBundleAtencion",
+    "meta": {
+        "profile": [
+            "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/BundleAtencion"
+        ]
+    },
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "bfc99432-0500-444f-9340-4a12ae51e1d1",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/EncounterUrg"
+                    ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_bfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter bfc99432-0500-444f-9340-4a12ae51e1d1</b></p><a name=\"bfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><a name=\"hcbfc99432-0500-444f-9340-4a12ae51e1d1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-EncounterUrg.html\">Encuentro Urgencia</a></p></div><p><b>Acompañante</b>: false</p><p><b>identifier</b>: 126402-0025</p><p><b>status</b>: In Progress</p><blockquote><p><b>statusHistory</b></p><p><b>status</b>: Arrived</p><p><b>period</b>: 2024-10-25 13:18:00-0400 --&gt; (ongoing)</p></blockquote><blockquote><p><b>statusHistory</b></p><p><b>status</b>: Triaged</p><p><b>period</b>: 2024-10-25 13:30:00-0400 --&gt; (ongoing)</p></blockquote><blockquote><p><b>statusHistory</b></p><p><b>status</b>: In Progress</p><p><b>period</b>: 2024-10-25 14:12:00-0400 --&gt; (ongoing)</p></blockquote><p><b>class</b>: <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html#v3-ActCode-EMER\">ActCode: EMER</a> (emergency)</p><p><b>priority</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/categorizacion-ugo C3}\">Atención Prioritaria</span></p><p><b>subject</b>: <a href=\"Patient-4239.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType ADM}\">admitter</span></p><p><b>period</b>: 2024-10-25 13:18:00-0400 --&gt; (ongoing)</p><p><b>individual</b>: <a href=\"Practitioner-b9f6967f-51b5-49f4-8576-ce9f588523c2.html\">Practitioner Mario Donoso </a></p></blockquote><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/participant-type emergency}\">Emergency</span></p><p><b>individual</b>: <a href=\"RelatedPerson-bb7f34f7-8f4e-42c8-aa84-1f64bf584a05.html\">RelatedPerson Jose Luis Perez </a></p></blockquote><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TipoParticipanteUrgencia triage}\">Categorizador</span></p><p><b>period</b>: 2024-10-25 13:30:00-0400 --&gt; (ongoing)</p><p><b>individual</b>: <a href=\"Practitioner-d04739d3-ba47-4f0f-920f-bcd66b474963.html\">Practitioner Juan Carlos Perez Gonzalez(official)</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType ATND}\">attender</span></p><p><b>period</b>: 2024-10-25 14:12:00-0400 --&gt; (ongoing)</p><p><b>individual</b>: <a href=\"Bundle-EjBundleAtencion.html#urn-uuid-f9ac39e2-db20-4cc8-98f3-fd8f43c23361\">Practitioner Luis Gonzalez (official)</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType CON}\">consultant</span></p><p><b>period</b>: 2024-10-25 14:29:00-0400 --&gt; (ongoing)</p><p><b>individual</b>: <a href=\"Bundle-EjBundleAtencion.html#urn-uuid-fbb0e12c-95ec-43f7-bff1-73009b307cb5\">Practitioner Maria Fernandez (official)</a></p></blockquote><p><b>period</b>: 2024-10-25 13:18:00-0400 --&gt; (ongoing)</p><p><b>reasonCode</b>: <span title=\"Codes:\">Dolor abdominal de 24 horas de evolución</span></p><h3>Diagnoses</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Condition</b></td><td><b>Use</b></td><td><b>Rank</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-EjBundleAtencion.html#urn-uuid-e27704ff-fa1a-4750-9d23-36ce567f35b0\">Condition Acute appendicitis</a></td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/diagnosis-role AD}\">Admission diagnosis</span></td><td>1</td></tr></table><blockquote><p><b>hospitalization</b></p><p><b>Medio de Llegada</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/MedioDeLlegada 5}\">Vehículo particular</span></p><p><b>Consulta por Accidente</b>: false</p><p><b>admitSource</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/Procedencia 9}\">Domicilio</span></p></blockquote><p><b>serviceProvider</b>: <a href=\"Organization-5016.html\">Organization Hospital Clínico Metropolitano La Florida Dra. Eloísa Díaz Insunza</a></p></div>"
+                },
+                "extension": [
+                    {
+                        "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/Acompanante",
+                        "valueBoolean": false
+                    }
+                ],
+                "identifier": [
+                    {
+                        "value": "18073516-111"
+                    }
+                ],
+                "status": "in-progress",
+                "statusHistory": [
+                    {
+                        "status": "arrived",
+                        "period": {
+                            "start": "2024-12-25T13:18:00-00:00"
+                        }
+                    },
+                    {
+                        "status": "triaged",
+                        "period": {
+                            "start": "2024-12-25T13:35:00-00:00"
+                        }
+                    },
+                    {
+                        "status": "in-progress",
+                        "period": {
+                            "start": "2024-12-25T14:12:00-00:00"
+                        }
+                    }
+                ],
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "EMER"
+                },
+                "priority": {
+                    "coding": [
+                        {
+                            "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/categorizacion-ugo",
+                            "code": "C3",
+                            "display": "Atención Prioritaria"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "code": "ADM",
+                                        "display": "admitter"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-12-25T13:18:00-00:00"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/5017"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TipoParticipanteUrgencia",
+                                        "code": "triage"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-12-25T13:35:00-00:00"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/10050"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "code": "ATND"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-10-25T14:12:00-04:00"
+                        },
+                        "individual": {
+                            "reference": "urn:uuid:f9ac39e2-db20-4cc8-98f3-fd8f43c23361"
+                        }
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "code": "CON"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "start": "2024-10-25T14:29:00-04:00"
+                        },
+                        "individual": {
+                            "reference": "urn:uuid:fbb0e12c-95ec-43f7-bff1-73009b307cb5"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2024-10-25T13:18:00-04:00"
+                },
+                "reasonCode": [
+                    {
+                        "text": "Dolor abdominal de 24 horas de evolución"
+                    }
+                ],
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "reference": "urn:uuid:e27704ff-fa1a-4750-9d23-36ce567f35b0"
+                        },
+                        "use": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+                                    "code": "AD"
+                                }
+                            ]
+                        },
+                        "rank": 1
+                    }
+                ],
+                "hospitalization": {
+                    "extension": [
+                        {
+                            "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/MedioDeLlegada",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/MedioDeLlegada",
+                                        "code": "5",
+                                        "display": "Vehículo particular"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ConsultaPorAccidente",
+                            "valueBoolean": false
+                        }
+                    ],
+                    "admitSource": {
+                        "coding": [
+                            {
+                                "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/Procedencia",
+                                "code": "9",
+                                "display": "Domicilio"
+                            }
+                        ]
+                    }
+                },
+                "serviceProvider": {
+                    "reference": "Organization/5016"
+                }
+            },
+            "request": {
+                "method": "PUT",
+                "url": "Encounter?identifier=18073516-111"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f9ac39e2-db20-4cc8-98f3-fd8f43c23361",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "f9ac39e2-db20-4cc8-98f3-fd8f43c23361",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/PrestadorProfesional"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_f9ac39e2-db20-4cc8-98f3-fd8f43c23361\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner f9ac39e2-db20-4cc8-98f3-fd8f43c23361</b></p><a name=\"f9ac39e2-db20-4cc8-98f3-fd8f43c23361\"> </a><a name=\"hcf9ac39e2-db20-4cc8-98f3-fd8f43c23361\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PrestadorProfesional.html\">Prestador Profesional de Urgencia</a></p></div><p><b>identifier</b>: RUN/42551405-9\u00a0(use:\u00a0official,\u00a0)</p><p><b>name</b>: Luis Gonzalez (Official)</p><p><b>birthDate</b>: 1992-05-26</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>cert</td><td><span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TituloProfesional 30}\">Médico General</span></td></tr></table></div>"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+                                    "code": "01"
+                                }
+                            ]
+                        },
+                        "system": "http://www.registrocivil.cl",
+                        "value": "42551405-9"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Kenobi",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+                                    "valueString": "Jinn"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "Obi-Wan"
+                        ]
+                    }
+                ],
+                "birthDate": "1978-07-01",
+                "qualification": [
+                    {
+                        "identifier": [
+                            {
+                                "value": "cert"
+                            }
+                        ],
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TituloProfesional",
+                                    "code": "30",
+                                    "display": "MÉDICO GENERAL"
+                                }
+                            ],
+                            "text": "Médico General"
+                        }
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "Practitioner",
+                "ifNoneExist": "identifier=42551405-9"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:fbb0e12c-95ec-43f7-bff1-73009b307cb5",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "fbb0e12c-95ec-43f7-bff1-73009b307cb5",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/PrestadorProfesional"
+                    ]
+                },
+                "text": {
+                    "status": "extensions",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_fbb0e12c-95ec-43f7-bff1-73009b307cb5\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner fbb0e12c-95ec-43f7-bff1-73009b307cb5</b></p><a name=\"fbb0e12c-95ec-43f7-bff1-73009b307cb5\"> </a><a name=\"hcfbb0e12c-95ec-43f7-bff1-73009b307cb5\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PrestadorProfesional.html\">Prestador Profesional de Urgencia</a></p></div><p><b>identifier</b>: RUN/55523793-6\u00a0(use:\u00a0official,\u00a0)</p><p><b>name</b>: Maria Fernandez (Official)</p><p><b>birthDate</b>: 1995-09-12</p><blockquote><p><b>qualification</b></p><p><b>Mención profesional añadida al título profesional</b>: Cirugía General</p><p><b>identifier</b>: cert</p><p><b>code</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TituloProfesional 1}\">Médico Cirujano</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>identifier</b>: esp</p><p><b>code</b>: <span title=\"Codes:{https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/EspecialidadMedica 18}\">Gastroenterología Adulto</span></p></blockquote></div>"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+                                    "code": "01"
+                                }
+                            ]
+                        },
+                        "system": "http://www.registrocivil.cl",
+                        "value": "55523793-6"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Amidala",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+                                    "valueString": "Naberrie"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "Padmé"
+                        ]
+                    }
+                ],
+                "birthDate": "1981-01-12",
+                "qualification": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/Mencion",
+                                "valueString": "Cirugía General"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "value": "cert"
+                            }
+                        ],
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/TituloProfesional",
+                                    "code": "1",
+                                    "display": "MÉDICO CIRUJANO"
+                                }
+                            ],
+                            "text": "Médico Cirujano"
+                        }
+                    },
+                    {
+                        "identifier": [
+                            {
+                                "value": "esp"
+                            }
+                        ],
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/CodeSystem/EspecialidadMedica",
+                                    "code": "18",
+                                    "display": "GASTROENTEROLOGÍA ADULTO"
+                                }
+                            ],
+                            "text": "Gastroenterología Adulto"
+                        }
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "Practitioner",
+                "ifNoneExist": "identifier=55523793-6"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7ea8cb9a-fc10-44ad-8c52-de03c4517b30",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "7ea8cb9a-fc10-44ad-8c52-de03c4517b30",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ObservacionAnamnesis"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_7ea8cb9a-fc10-44ad-8c52-de03c4517b30\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 7ea8cb9a-fc10-44ad-8c52-de03c4517b30</b></p><a name=\"7ea8cb9a-fc10-44ad-8c52-de03c4517b30\"> </a><a name=\"hc7ea8cb9a-fc10-44ad-8c52-de03c4517b30\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ObservacionAnamnesis.html\">Observación Anamnesis</a></p></div><p><b>status</b>: Registered</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 84100007}\">Anamnesis</span></p><p><b>subject</b>: <a href=\"Patient-4239.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-bfc99432-0500-444f-9340-4a12ae51e1d1\">Encounter: extension = false; identifier = 18073516-111; status = arrived; class = emergency (ActCode#EMER); priority = Sin Categorizar; period = 2024-10-25 13:18:00-0400 --&gt; (ongoing)</a></p><p><b>effective</b>: 2024-10-25 14:18:00-0400</p><p><b>performer</b>: <a href=\"Bundle-EjBundleAtencion.html#urn-uuid-f9ac39e2-db20-4cc8-98f3-fd8f43c23361\">Practitioner Luis Gonzalez (official)</a></p><p><b>value</b>: MOTIVO DE CONSULTA:\nDolor abdominal de 24 horas de evolución.\n\nHISTORIA ACTUAL:\nInicio en región periumbilical hace 24 horas, posteriormente migra a fosa iliaca derecha.\nIntensidad progresiva, EVA actual 8/10.\nAsociado a:\n- Anorexia desde inicio de síntomas\n- Náuseas y dos episodios de vómitos\n- Sensación febril no cuantificada\nDolor aumenta al caminar y con movimientos bruscos.\nNo reporta diarrea ni síntomas urinarios.\nAutomedicación con Paracetamol sin alivio.\n\nANTECEDENTES:\nMórbidos: No\nQuirúrgicos: No\nAlergias: No\nMedicamentos habituales: No\nÚltima ingesta: &gt;12 horas (anorexia)</p></div>"
+                },
+                "status": "registered",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "84100007"
+                        }
+                    ],
+                    "text": "Anamnesis"
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1"
+                },
+                "effectiveDateTime": "2024-10-25T14:12:00-00:00",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:f9ac39e2-db20-4cc8-98f3-fd8f43c23361"
+                    }
+                ],
+                "valueString": "explica su cuadro y también refiere sensación febril, que ha sido confirmada durante el triage con una temperatura de 38.2°C. Menciona que el dolor se intensifica notablemente con la deambulación y los movimientos bruscos, lo que lo ha obligado a permanecer lo más quieto posible."
+            },
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:e27704ff-fa1a-4750-9d23-36ce567f35b0",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "e27704ff-fa1a-4750-9d23-36ce567f35b0",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ConditionDiagnosticoLE"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_e27704ff-fa1a-4750-9d23-36ce567f35b0\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition e27704ff-fa1a-4750-9d23-36ce567f35b0</b></p><a name=\"e27704ff-fa1a-4750-9d23-36ce567f35b0\"> </a><a name=\"hce27704ff-fa1a-4750-9d23-36ce567f35b0\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ConditionDiagnosticoLE.html\">Condition Diagnostico</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status provisional}\">Provisional</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/icd-10 K35}\">Acute appendicitis</span></p><p><b>subject</b>: <a href=\"Patient-4239.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Bundle-Ej1BundleAdmision.html#urn-uuid-bfc99432-0500-444f-9340-4a12ae51e1d1\">Encounter: extension = false; identifier = 18073516-111; status = arrived; class = emergency (ActCode#EMER); priority = Sin Categorizar; period = 2024-10-25 13:18:00-0400 --&gt; (ongoing)</a></p><p><b>recorder</b>: <a href=\"Bundle-EjBundleAtencion.html#urn-uuid-f9ac39e2-db20-4cc8-98f3-fd8f43c23361\">Practitioner Luis Gonzalez (official)</a></p><p><b>note</b>: </p><blockquote><div><p>Paciente con dolor abdominal agudo, compatible con apendicitis aguda.</p>\n</div></blockquote></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "provisional"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10",
+                            "code": "K35",
+                            "display": "Acute appendicitis"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1"
+                },
+                "recorder": {
+                    "reference": "urn:uuid:f9ac39e2-db20-4cc8-98f3-fd8f43c23361"
+                },
+                "note": [
+                    {
+                        "text": "Paciente con dolor abdominal agudo, compatible con apendicitis aguda."
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "Condition"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b8b2b855-e554-40ef-98fe-55a07556fc48",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "b8b2b855-e554-40ef-98fe-55a07556fc48",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ServiceRequestSolicitudes"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest b8b2b855-e554-40ef-98fe-55a07556fc48</b></p><a name=\"b8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><a name=\"hcb8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequestSolicitudes.html\">Solicitudes de Exámenes, Procedimientos y Otros Servicios Complementarios</a></p></div><p><b>identifier</b>: SOL-20241025-001</p><p><b>status</b>: Draft</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 24356-8}\">Hemograma completo</span></p><p><b>subject</b>: <a href=\"Patient-6ec6dc25-4b65-4165-a545-9b796f60b997.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-d1391b7b-302a-49f8-a908-8116599e137e.html\">Encounter: extension = false; identifier = 126402-0025; status = in-progress; class = emergency (ActCode#EMER); priority = Atención Prioritaria; period = 2024-10-25 13:18:00-0400 --&gt; (ongoing); reasonCode = </a></p><p><b>authoredOn</b>: 2024-10-25 14:00:00-0400</p><p><b>requester</b>: <a href=\"Practitioner-190cd208-48b1-4920-a283-6bc37cbde13a.html\">Practitioner Luis Gonzalez (official)</a></p><p><b>reasonCode</b>: <span title=\"Codes:\">Control de rutina</span></p></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "SOL-123456771"
+                    }
+                ],
+                "status": "draft",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "58410-2"
+                        }
+                    ],
+                    "text": "Hemograma completo"
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1"
+                },
+                "authoredOn": "2024-12-25T14:29:00-00:00",
+                "requester": {
+                    "reference": "urn:uuid:fbb0e12c-95ec-43f7-bff1-73009b307cb5"
+                },
+                "reasonCode": [
+                    {
+                        "text": "para confirmar el diagnóstico y planificar el manejo quirúrgico"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "ServiceRequest",
+                "ifNoneExist": "identifier=SOL-123456771"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5e84cb44-9758-4962-b73a-6bae1f862fd5",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "5e84cb44-9758-4962-b73a-6bae1f862fd5",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ServiceRequestSolicitudes"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest b8b2b855-e554-40ef-98fe-55a07556fc48</b></p><a name=\"b8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><a name=\"hcb8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequestSolicitudes.html\">Solicitudes de Exámenes, Procedimientos y Otros Servicios Complementarios</a></p></div><p><b>identifier</b>: SOL-20241025-001</p><p><b>status</b>: Draft</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 24356-8}\">Hemograma completo</span></p><p><b>subject</b>: <a href=\"Patient-6ec6dc25-4b65-4165-a545-9b796f60b997.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-d1391b7b-302a-49f8-a908-8116599e137e.html\">Encounter: extension = false; identifier = 126402-0025; status = in-progress; class = emergency (ActCode#EMER); priority = Atención Prioritaria; period = 2024-10-25 13:18:00-0400 --&gt; (ongoing); reasonCode = </a></p><p><b>authoredOn</b>: 2024-10-25 14:00:00-0400</p><p><b>requester</b>: <a href=\"Practitioner-190cd208-48b1-4920-a283-6bc37cbde13a.html\">Practitioner Luis Gonzalez (official)</a></p><p><b>reasonCode</b>: <span title=\"Codes:\">Control de rutina</span></p></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "SOL-123456772"
+                    }
+                ],
+                "status": "draft",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "76486-0"
+                        }
+                    ],
+                    "text": "proteína C reactiva"
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1"
+                },
+                "authoredOn": "2024-12-25T14:29:00-00:00",
+                "requester": {
+                    "reference": "urn:uuid:fbb0e12c-95ec-43f7-bff1-73009b307cb5"
+                },
+                "reasonCode": [
+                    {
+                        "text": "para confirmar el diagnóstico y planificar el manejo quirúrgico"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "ServiceRequest",
+                "ifNoneExist": "identifier=SOL-123456772"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:aff31112-a49e-48c7-aff5-67273215d936",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "aff31112-a49e-48c7-aff5-67273215d936",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ServiceRequestSolicitudes"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest b8b2b855-e554-40ef-98fe-55a07556fc48</b></p><a name=\"b8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><a name=\"hcb8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequestSolicitudes.html\">Solicitudes de Exámenes, Procedimientos y Otros Servicios Complementarios</a></p></div><p><b>identifier</b>: SOL-20241025-001</p><p><b>status</b>: Draft</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 24356-8}\">Hemograma completo</span></p><p><b>subject</b>: <a href=\"Patient-6ec6dc25-4b65-4165-a545-9b796f60b997.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-d1391b7b-302a-49f8-a908-8116599e137e.html\">Encounter: extension = false; identifier = 126402-0025; status = in-progress; class = emergency (ActCode#EMER); priority = Atención Prioritaria; period = 2024-10-25 13:18:00-0400 --&gt; (ongoing); reasonCode = </a></p><p><b>authoredOn</b>: 2024-10-25 14:00:00-0400</p><p><b>requester</b>: <a href=\"Practitioner-190cd208-48b1-4920-a283-6bc37cbde13a.html\">Practitioner Luis Gonzalez (official)</a></p><p><b>reasonCode</b>: <span title=\"Codes:\">Control de rutina</span></p></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "SOL-123456773"
+                    }
+                ],
+                "status": "draft",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "51990-0"
+                        }
+                    ],
+                    "text": "perfil bioquímico básico"
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1"
+                },
+                "authoredOn": "2024-12-25T14:29:00-00:00",
+                "requester": {
+                    "reference": "urn:uuid:fbb0e12c-95ec-43f7-bff1-73009b307cb5"
+                },
+                "reasonCode": [
+                    {
+                        "text": "para confirmar el diagnóstico y planificar el manejo quirúrgico"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "ServiceRequest",
+                "ifNoneExist": "identifier=SOL-123456773"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:592f579e-f13d-408b-95d7-4e458e49717b",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "592f579e-f13d-408b-95d7-4e458e49717b",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ServiceRequestSolicitudes"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest b8b2b855-e554-40ef-98fe-55a07556fc48</b></p><a name=\"b8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><a name=\"hcb8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequestSolicitudes.html\">Solicitudes de Exámenes, Procedimientos y Otros Servicios Complementarios</a></p></div><p><b>identifier</b>: SOL-20241025-001</p><p><b>status</b>: Draft</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 24356-8}\">Hemograma completo</span></p><p><b>subject</b>: <a href=\"Patient-6ec6dc25-4b65-4165-a545-9b796f60b997.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-d1391b7b-302a-49f8-a908-8116599e137e.html\">Encounter: extension = false; identifier = 126402-0025; status = in-progress; class = emergency (ActCode#EMER); priority = Atención Prioritaria; period = 2024-10-25 13:18:00-0400 --&gt; (ongoing); reasonCode = </a></p><p><b>authoredOn</b>: 2024-10-25 14:00:00-0400</p><p><b>requester</b>: <a href=\"Practitioner-190cd208-48b1-4920-a283-6bc37cbde13a.html\">Practitioner Luis Gonzalez (official)</a></p><p><b>reasonCode</b>: <span title=\"Codes:\">Control de rutina</span></p></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "SOL-123456774"
+                    }
+                ],
+                "status": "draft",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24356-8"
+                        }
+                    ],
+                    "text": "examen de orina completo"
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1"
+                },
+                "authoredOn": "2024-12-25T14:29:00-00:00",
+                "requester": {
+                    "reference": "urn:uuid:fbb0e12c-95ec-43f7-bff1-73009b307cb5"
+                },
+                "reasonCode": [
+                    {
+                        "text": "para confirmar el diagnóstico y planificar el manejo quirúrgico"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "ServiceRequest",
+                "ifNoneExist": "identifier=SOL-123456774"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:63ef24c9-1a7a-495c-9b59-33e20a2f7099",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "63ef24c9-1a7a-495c-9b59-33e20a2f7099",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ServiceRequestSolicitudes"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest b8b2b855-e554-40ef-98fe-55a07556fc48</b></p><a name=\"b8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><a name=\"hcb8b2b855-e554-40ef-98fe-55a07556fc48\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ServiceRequestSolicitudes.html\">Solicitudes de Exámenes, Procedimientos y Otros Servicios Complementarios</a></p></div><p><b>identifier</b>: SOL-20241025-001</p><p><b>status</b>: Draft</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 24356-8}\">Hemograma completo</span></p><p><b>subject</b>: <a href=\"Patient-6ec6dc25-4b65-4165-a545-9b796f60b997.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-d1391b7b-302a-49f8-a908-8116599e137e.html\">Encounter: extension = false; identifier = 126402-0025; status = in-progress; class = emergency (ActCode#EMER); priority = Atención Prioritaria; period = 2024-10-25 13:18:00-0400 --&gt; (ongoing); reasonCode = </a></p><p><b>authoredOn</b>: 2024-10-25 14:00:00-0400</p><p><b>requester</b>: <a href=\"Practitioner-190cd208-48b1-4920-a283-6bc37cbde13a.html\">Practitioner Luis Gonzalez (official)</a></p><p><b>reasonCode</b>: <span title=\"Codes:\">Control de rutina</span></p></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "SOL-123456775"
+                    }
+                ],
+                "status": "draft",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24558-9"
+                        }
+                    ],
+                    "text": "ecografía abdominal"
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1"
+                },
+                "authoredOn": "2024-12-25T14:29:00-00:00",
+                "requester": {
+                    "reference": "urn:uuid:fbb0e12c-95ec-43f7-bff1-73009b307cb5"
+                },
+                "reasonCode": [
+                    {
+                        "text": "para confirmar el diagnóstico y planificar el manejo quirúrgico"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "ServiceRequest",
+                "ifNoneExist": "identifier=SOL-123456775"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:aeb13c46-8eb3-4b8f-9bc2-e3d57024cb86",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "aeb13c46-8eb3-4b8f-9bc2-e3d57024cb86",
+                "meta": {
+                    "profile": [
+                        "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/StructureDefinition/ObservationResultadoExamen"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation aeb13c46-8eb3-4b8f-9bc2-e3d57024cb86</b></p><a name=\"aeb13c46-8eb3-4b8f-9bc2-e3d57024cb86\"> </a><a name=\"hcaeb13c46-8eb3-4b8f-9bc2-e3d57024cb86\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ObservationResultadoExamen.html\">Observation Resultado Examen</a></p></div><p><b>status</b>: Registered</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2339-0}\">Glucosa en sangre</span></p><p><b>subject</b>: <a href=\"Patient-6ec6dc25-4b65-4165-a545-9b796f60b997.html\">Maria Josefína Perez Gonzalez(official) Female, DoB: 1974-12-25 ( Rol Único Nacional:\u00a090000000-6\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>encounter</b>: <a href=\"Encounter-d1391b7b-302a-49f8-a908-8116599e137e.html\">Encounter: extension = false; identifier = 126402-0025; status = in-progress; class = emergency (ActCode#EMER); priority = Atención Prioritaria; period = 2024-10-25 13:18:00-0400 --&gt; (ongoing); reasonCode = </a></p><p><b>effective</b>: 2024-10-25 14:18:00-0400</p><p><b>performer</b>: <a href=\"Practitioner-d04739d3-ba47-4f0f-920f-bcd66b474963.html\">Practitioner Juan Carlos Perez Gonzalez(official)</a></p><p><b>value</b>: 120 mg/dL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg/dL = 'mg/dL')</span></p></div>"
+                },
+                "status": "registered",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2339-0"
+                        }
+                    ],
+                    "text": "La ecografía abdominal revela un apéndice cecal de 12 milímetros de diámetro, no compresible, con presencia de líquido libre periapendicular. El informe concluye que los hallazgos son compatibles con apendicitis aguda. Con los elementos clínicos, de laboratorio e imagenológicos concordantes, se establece el diagnóstico definitivo de Apendicitis Aguda (CIE-10: K35) con estado clínico activo y verificación confirmada"
+                },
+                "subject": {
+                    "reference": "Patient/5015"
+                },
+                "encounter": {
+                    "reference": "urn:uuid:bfc99432-0500-444f-9340-4a12ae51e1d1"
+                },
+                "effectiveDateTime": "2024-12-25T14:29:00-00:00",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:fbb0e12c-95ec-43f7-bff1-73009b307cb5"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 12,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                }
+            },
+            "request": {
+                "method": "POST",
+                "url": "Observation"
+            }
+        }
+    ]
+}

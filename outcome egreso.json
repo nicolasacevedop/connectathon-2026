@@ -1,0 +1,74 @@
+{
+  "resourceType": "Bundle",
+  "id": "3bd71745-e1f5-43e5-82c4-c16b3bd04abe",
+  "type": "transaction-response",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.cegconsultores.cl/fhir"
+    }
+  ],
+  "entry": [
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "Encounter/5014/_history/6",
+        "etag": "6",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally updated resource &quot;Encounter/5014/_history/6&quot;. Existing resource matched URL &quot;Encounter?identifier=18073516-111&amp;_tag=http%3A%2F%2Ffhir-proxy.local%2Ftenant%7Chealth-patch&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_UPDATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional update succeeded: an existing resource matched the conditional URL and was updated."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally updated resource \"Encounter/5014/_history/6\". Existing resource matched URL \"Encounter?identifier=18073516-111&_tag=http%3A%2F%2Ffhir-proxy.local%2Ftenant%7Chealth-patch\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Practitioner/12448/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-14T18:39:16.912+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;Practitioner/12448/_history/1&quot;. No existing resources matched URL &quot;identifier=425514051-9&amp;_tag=http%3A%2F%2Ffhir-proxy.local%2Ftenant%7Chealth-patch&quot;. Took 5ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_NO_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: no existing resource matched the conditional URL."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"Practitioner/12448/_history/1\". No existing resources matched URL \"identifier=425514051-9&_tag=http%3A%2F%2Ffhir-proxy.local%2Ftenant%7Chealth-patch\". Took 5ms."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

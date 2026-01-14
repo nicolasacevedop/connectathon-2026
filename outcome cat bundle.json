@@ -1,0 +1,290 @@
+{
+  "resourceType": "Bundle",
+  "id": "f0b9a1da-719d-483a-bd59-c06a2400f6ec",
+  "type": "transaction-response",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.cegconsultores.cl/fhir"
+    }
+  ],
+  "entry": [
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "Encounter/5014/_history/4",
+        "etag": "4",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally updated resource &quot;Encounter/5014/_history/4&quot;. Existing resource matched URL &quot;Encounter?identifier=18073516-111&amp;_tag=http%3A%2F%2Ffhir-proxy.local%2Ftenant%7Chealth-patch&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_UPDATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional update succeeded: an existing resource matched the conditional URL and was updated."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally updated resource \"Encounter/5014/_history/4\". Existing resource matched URL \"Encounter?identifier=18073516-111&_tag=http%3A%2F%2Ffhir-proxy.local%2Ftenant%7Chealth-patch\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "200 OK",
+        "location": "Practitioner/10050/_history/1",
+        "etag": "1",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully conditionally created resource &quot;0&quot;. Existing resource matched URL &quot;identifier=15500246-8&amp;_tag=http%3A%2F%2Ffhir-proxy.local%2Ftenant%7Chealth-patch&quot;.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE_WITH_CONDITIONAL_MATCH",
+                    "display": "Conditional create succeeded: an existing resource matched the conditional URL so no action was taken."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully conditionally created resource \"0\". Existing resource matched URL \"identifier=15500246-8&_tag=http%3A%2F%2Ffhir-proxy.local%2Ftenant%7Chealth-patch\"."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Observation/10266/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-14T17:19:25.099+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Observation/10266/_history/1&quot;. Took 3ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Observation/10266/_history/1\". Took 3ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Observation/10267/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-14T17:19:25.099+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Observation/10267/_history/1&quot;. Took 1ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Observation/10267/_history/1\". Took 1ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Observation/10268/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-14T17:19:25.099+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Observation/10268/_history/1&quot;. Took 0ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Observation/10268/_history/1\". Took 0ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Observation/10269/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-14T17:19:25.099+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Observation/10269/_history/1&quot;. Took 1ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Observation/10269/_history/1\". Took 1ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Observation/10270/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-14T17:19:25.099+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Observation/10270/_history/1&quot;. Took 1ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Observation/10270/_history/1\". Took 1ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Observation/10271/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-14T17:19:25.099+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Observation/10271/_history/1&quot;. Took 1ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Observation/10271/_history/1\". Took 1ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Observation/10272/_history/1",
+        "etag": "1",
+        "lastModified": "2026-01-14T17:19:25.099+00:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Observation/10272/_history/1&quot;. Took 1ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Observation/10272/_history/1\". Took 1ms."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
